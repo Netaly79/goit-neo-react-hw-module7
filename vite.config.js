@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   rollupOptions: {
     external: [
-      'build.rollupOptions.external'
+      'axios'
     ]
   }
 })
